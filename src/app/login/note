@@ -1,0 +1,14 @@
+create project-ng new project name
+run-ng serve --open
+generate component-ng g c component-name
+basic component
+1 moduel-to import libraries rootmodule-appmodule
+2 components -to generate ts,html,css,root component-app component
+3 Data binding -sharing data within a component
+3.1 one  way binding -only single direction sharing
+3.1.1 component to view
+      3.1.1.1 string intrapolation-{{variable name}}
+      3.1.1.2property binding  -  [tag-attribute]="class-property"
+3.1.2 view to component
+      3.1.2.1 Event binding-(event-name)="function call"
+      3.1.2.2event binding using $event-(event-name)="function-call"

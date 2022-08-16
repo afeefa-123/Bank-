@@ -1,0 +1,28 @@
+
+<h1 class="text-primary">{{header}}{{dot}}</h1>
+<div class="row">
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4" style="margin: top 500px;">
+        <div class="border">
+        <h2 class="text-center">Login Form</h2>
+        <form action=""class="| p-5">
+            <div class="m-3">
+            <input #acno class="form-control"type="text"[placeholder]=" accPlaceholder">
+            
+            </div>
+            
+            <div class="m-3">
+                <input #pswd class="form-control"type="password"placeholder="password">
+            </div>
+            <div class="m-3">
+                <input (click)="login(acno,pswd)" class="btn btn-primary" type="button"value="LogIn" name="" id="loginBtn">
+            </div>
+            </form>
+   
+    <div>
+        <label for="">not user?click here to <a href="">register</a></label>
+    </div>
+   </div> 
+</div>
+    <div class="col-lg-4"></div>
+</div>
